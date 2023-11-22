@@ -2,8 +2,7 @@ package henger;
 public class Cso extends TomorHenger{
     private double falvastagsag;
     public Cso(double sugar, double magassag, double fajsuly, double falvastagsag) {
-        super(sugar, magassag, fajsuly);
-        this.falvastagsag = falvastagsag;
+        this(sugar, magassag, 1);
     }
 
     public Cso(double falvastagsag, double sugar, double magassag) {
@@ -17,7 +16,7 @@ public class Cso extends TomorHenger{
 
     @Override
     public double terfogat() {
-        return super.terfogat(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        return super.terfogat(); 
     }
 
     @Override
